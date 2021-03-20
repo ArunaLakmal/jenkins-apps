@@ -16,7 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx
+      - image: nginx:1.19.8
         name: nginx-deployment
 ---
 apiVersion: v1
